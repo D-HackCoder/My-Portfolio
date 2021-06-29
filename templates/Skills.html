@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Skills - Bhavy Shah</title>
+    <style>
+ .nav-link {
+            color: blueviolet;
+            font-style: inherit;
+            font-family: cursive;
+            font-weight: 800;
+            font-size:2vh;
+        } 
+       
+      .profilen
+      {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 5vh;
+      }
+
+      .active
+      {
+        margin-left: 5vh;
+      }
+      
+.navsolo
+{
+  background-color: lightblue;
+}
+.nav-link:hover , .profilen:hover{
+            border: 2px solid white;
+            border-radius: 30px;          
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+     
+      footer
+        {
+          text-align: center;
+          justify-content: center;
+          background-color: black;
+          color: white;
+          position: sticky;
+        }
+        footer
+
+{
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  margin-bottom: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  flex-shrink: 0;
+}
+.h1
+        {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          justify-content: center;
+          text-align: center;
+          margin-top: 4vh;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: 900;
+          color: blue;
+        }
+      
+      
+.time1
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: green;
+}
+.h5
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: rgb(252, 118, 8);
+
+}
+    
+body{
+  background-color: lightseagreen;
+  background-image: url(../static/mine/sk12.jpg);
+}
+.pp
+{
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(14, 17, 14);
+  text-align: center;
+  border-bottom: 1px solid red; 
+}
+.python , .arduino
+{
+  border-bottom: 1px solid lightblue;
+}
+.other1
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.extra , .other , .os{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.other{
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.box
+{
+  background-color: blue;
+  margin-left: 2vh;
+  /* margin: 6vh; */
+  border-radius: 4px;
+  color: yellow;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  font-family: cursive;
+}
+.and{
+  border-bottom: 1px solid lightblue;
+}
+.extra{
+  border-top:  1px solid lightblue;
+}
+  </style>
+
+  </head>
+  <body>
+    
+    {% load static %}
+    <nav class="navbar navbar-expand-lg navsolo">
+      <div class="container-fluid">
+      <img  class="profilen" src="../static/profilen.jpg" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Skills.html">Skills</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Projects.html">Projects</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Contact.html">Contact</a>
+            </li>
+          
+           </div>
+      </div>
+    </nav>         
+  
+
+
+    <h1 class="h1">Proficient Skills</h1>
+
+    <div class="head"></div>
+    <br> <br>
+    <div class="python">
+      <h5 class="h5">Python-Django</h5>
+      <h6 class="time1">Beginner (3 Months)</h6>
+      <!-- <h6 class="time2"></h6> --> 
+      <p class="pp">As a Beginner I have make some small projects. <br> I have make Text-Utils Application. <br> I am Back-end Django Developer. <br> I have make normal Website using Django.</p>
+
+    </div>
+<br>
+    <div class="arduino">
+      <h5 class="h5">Arduino</h5>
+      <h6 class="time1">Intermideate</h6>
+      <p class="pp">I have knowledge of Arduino UNO. <br>I have also do some basic coding of it in C language. <br> I have knowledge of Embedded C. <br> I also want to explore myself in it.</p>
+    </div>
+    <br>
+
+
+    <div class="and">
+      <h5 class="h5">Analog and Digital Communications</h5>
+      <h6 class="time1">Intermideate (1 Year)</h6>
+      <p class="pp">I have very good knowledge of Analog and Digital Communication. <br> I am intrested in Analog and Digital Communications. <br> I want to work in ISRO. <br> I want to explore myself in it. <br> I have basic knowledge of Satellite Communication and 3G - 4G <br> Communications.</p>
+      <div class="extra">
+        <br>
+        <h4 class="other">Other Skills</h4>
+        <br>
+        <div class="os">
+            <span class="box">CSS</span>
+            <span class="box">HTML</span>
+            <span class="box">JavaScript</span>
+            <span class="box">C</span>
+            <span class="box">React.js</span>
+          
+            <br><br>
+            
+            <span class="box">Basic Android Development</span>
+            <span class="box">Basic PHP</span>
+            <span class="box">Electronics </span>
+            <span class="box">Java</span>
+            <span class="box">Basic ML</span>
+        </div>
+    </div> 
+    <br>
+
+    </div>
+<br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <footer>Copy Right &copy; bhavyshah.com </footer>
+
+  </body>
+</html>

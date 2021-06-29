@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Education - Bhavy Shah</title>
+    <style>
+
+      .profilen
+      {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 5vh;
+      }
+
+      .active
+      {
+        margin-left: 5vh;
+      }
+      
+.navsolo
+{
+  background-color: lightblue;
+
+}
+
+      footer
+
+        {
+          text-align: center;
+          justify-content: center;
+          background-color: black;
+          color: white;
+          position: fixed;
+          margin-bottom: 0px;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          margin-top: 100vh;
+         
+          }
+        .nav-link {
+            color: blueviolet;
+            font-style: inherit;
+            font-family: cursive;
+            font-weight: 800;
+            font-size:2vh;
+        } 
+       
+        .nav-link:hover , .profilen:hover{
+            border: 2px solid white;
+            border-radius: 30px;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        .h1
+        {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          justify-content: center;
+          text-align: center;
+          margin-top: 4vh;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: 900;
+          color: blue;
+        }
+        .ldcelogo
+{
+  width: 4vh;
+  height: 4vh;
+}
+.ldce
+{
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.ldce:hover{
+  color: black;
+}
+.college
+{
+  margin-left: 10vh;
+  border: 2 px solid lightgreen;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.time2 
+{
+  color: lightsalmon;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+
+}
+.time1
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: lightgoldenrodyellow;
+}
+.h5
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+
+}
+body{
+  background-color: lightseagreen;
+}
+.pp
+{
+  font-weight: 600;
+  font-size: 1rem;
+  color: yellow;
+  text-align: center;
+}
+.collegeimg
+{
+  margin-left: 80vh;
+  margin-bottom: -120vh;
+  margin-top: -30vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-left: 12vh;
+}
+.college
+{
+  margin-bottom: 2vh;
+  text-align: center;
+  justify-content: center;
+  border-bottom: 1px solid lightblue;
+
+
+}
+body{
+  background-image: url(../static/mine/eda111.jpg);
+  z-index: -1;
+  opacity: 1;
+}
+ .highschool
+{ 
+  border-bottom: 1px solid lightblue;
+  margin-bottom: 2vh;
+ } 
+  </style>
+
+  </head>
+  <body>
+    
+    {% load static %}
+    <nav class="navbar navbar-expand-lg navsolo">
+      <div class="container-fluid">
+      <img  class="profilen" src="../static/profilen.jpg" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Skills.html">Skills</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Projects.html">Projects</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="../templates/Contact.html">Contact</a>
+            </li>
+          
+           </div>
+      </div>
+    </nav>         
+  
+<h1 class="h1">Education</h1>
+<div class="head"></div>
+<br><br>
+<div class="college">
+<h5 class="h5">B.E in Electronics and Communications <br> Department</h5>
+<h6 class="time1"> Current Year - 3rd Year</h6>
+<h6 class="time2">(2019 - 2023)</h6>
+<br>
+<p class="pp"><img class="ldcelogo" src="../static/mine/ldcelogo.jpg" alt=""> <br><a class="ldce" href="https://ldce.ac.in" target="_blank">L.D College of Engineering</a> is GTU affiliated. Electronics <br> and Communications Department of L.D College is <br> the best in Gujarat.</p>
+</div><br>
+<div class="highschool">
+<h5 class="h5">Higher Secondary School</h5>
+<!-- <br> -->
+<h6 class="time1">Shri Damubhai Shukla Vidhya Mandir</h6>
+<h6 class="time2">(2017 -2019)</h6>
+<br>
+<p class="pp">Shri Damubhai Shukla Higher Secondary School is based on Gujarat Education board. <br>In 11th-12th standard I had mainly focused on Physics , Chemistry and Maths. <br> I have good knowledge of Physics.  </p>
+
+</div>
+<br>
+<div class="school">
+  <h5 class="h5">Secondary School</h5>
+  <h6 class="time1">Divine Life School</h6>
+  <h6 class="time2">(2005 - 2017)</h6>
+  <br>
+  <p class="pp">In Secondary School We mainly learnt Maths , Science , Social Science , Sanskrit. <br> I also learnt Languanges like Gujarati , English and Hindi.</p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <br>
+    <footer>Copy Right &copy; bhavyshah.com </footer>
+
+  </body>
+</html>
